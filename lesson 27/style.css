@@ -1,0 +1,27 @@
+.wrapper {
+    width: 500px;
+    height: 700px;
+    border: 1px solid black ;
+    padding: 5px;
+}
+.card {
+    display: flex;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.card_number {
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.card_info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
