@@ -1,0 +1,12 @@
+th,td {
+    border: 1px solid black; /* Параметры границы */  
+}
+table {
+    border-collapse: collapse;
+}
+img {
+    width: 100px;
+}
+body {
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}

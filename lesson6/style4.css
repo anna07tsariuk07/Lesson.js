@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(255, 255, 255) ;
+    color:black;
+    font-size: 14px;
+    font-family: "Montserrat",sans-serif;
+}
+h1 {
+    font-size: 48px; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    line-height: 48px;
+   }
+
+   h2 {
+    font-size: 25pxpx;
+    color: rgb(110, 110, 110);  
+    text-align: center;
+}
+h3 {
+    font-size: 15px;
+    color: rgb(78, 78, 78);  
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(img/Без\ названия\ \(1\).png) center center no-repeat;
+    background-size: cover;
+}
+
+.header-inner {
+    width: 100%;
+}
+
+.header-top {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-logo > a {
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.header-menu-inner {
+    display: flex;
+}
+
+.header-menu__item {
+    margin: 0 15px;
+    transition: font-size 0.5s;
+}
+
+.header-menu__item:hover {
+    font-size: 16px;
+    font-weight: 700;
+}
+.header-intro {
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+   }
+
+.header-intro>p {
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background: transparent;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+ .btn:hover {
+    background:white;
+    color: rgb(235, 49, 49);
+    font-weight: 700;
+}
+ .main-inner {
+    width: 100%;
+    margin: 1000px 0 px;
+}  
+
+.main-intro-line {
+    width:50px;
+    height: 3px;
+    background-color: rgb(77, 77, 77);
+    margin: 30px auto;
+}
+.main-intro>p { 
+    text-align: center;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    padding: 50px 0 0 0;
+} 
+.main-views {
+    width: 100%;
+    margin: 75px 0 ;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.main-view  {
+    width: 350px;
+    margin: 0 12px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.view-header {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(202, 201, 201);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.view-header > i {
+    font-size: 43px;
+    color: red;
+    
+}
+
+.main-view:hover > .view-header {
+    background-color: red;
+    border: 2px solid white;  
+}
+
+.main-view:hover > .view-header i {
+    color: #fff;  
+}
+
+.main-view > h3 {
+    margin: 20px 0;
+}
+
+.main-view > p {
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    background-color: red;
+}
+
+.footer-inner {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.footer-social {
+    width: 200px;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/Без\ названияkhlkh\ \(2\).png)center center no-repeat
+}
+
+.social-icon > i {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background: url(img/Без\ названияnn\ \(2\).png) center center no-repeat;
+}
+
+.social-icon:hover {
+    background: rgb(255, 255, 255);
+}
+
+.social-icon:hover > i {
+    color: #ff1e00;
+}
+
+.footer-rights {
+    color: rgb(255, 255, 255);
+    margin: 60px 0 0 0;
+    text-align: center;
+}

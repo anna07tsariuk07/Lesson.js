@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1 {
+    margin-left: 120px;
+}
+form {
+width: 400px;
+display: flex;
+}
+button {
+    color: forestgreen;
+}
+.div2>p {
+    color: green;
+    
+}
+.f {
+    color: red;
+}
+body {
+    background-color: rosybrown;
+}
+.div2 {
+    margin-left: 90px;
+}
+.div3 {
+    margin-left: 60px;
+}
+.div4 {
+    margin-left: 400pxpx ;
+}

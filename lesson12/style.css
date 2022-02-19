@@ -1,0 +1,72 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(83, 119, 107);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+.container {
+    margin: 0, auto;
+}
+nav {
+    margin: 50px 0;
+    background-color: rgb(238, 151, 130);
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    display: inline-block;
+    background-color:rgb(238, 151, 130) ;
+}
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0, 10px;
+    font-size: 20px;
+    line-height: 60px;
+}
+nav ul ul {
+   display: none;
+   position: absolute;
+}
+nav a:hover {
+    background-color: black;
+}
+nav ul ul li {
+width:67px;
+position: relative;
+float: none;
+display: list-item;
+}
+nav ul li:hover>ul {
+display: inherit;
+}
+p {
+    margin-top: 20px;
+}
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:66px;
+    text-align: center;
+}

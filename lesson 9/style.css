@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    background-color: darksalmon;
+}
+div {
+    margin-top: 10px;
+}
+button:hover {
+    background-color: darkturquoise;
+}

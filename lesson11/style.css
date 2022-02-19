@@ -1,0 +1,103 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+html {
+      min-block-size: 100%;
+      font-size: 100%;
+  }
+body {
+    margin: 0;
+    block-size: 100%;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+header{
+        background-color: rgb(52, 53, 54);
+        color: rgb(255, 255, 255);
+        border: 5px solid black;
+}
+nav ul {
+      margin: 0;
+      padding: 0;
+}
+nav li {
+    display: block;
+    margin: 5px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem, 1rem;
+    border-top: 1px solid white;
+}
+header .title {
+    font-size: 1.5rem;
+    padding: 1em;
+    font-weight: bold;
+}
+main {
+    padding: 1em;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1em;
+}
+h1 {
+    text-align: center;
+}
+main h1 {
+      margin-top: 0;
+}
+.cards {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+      gap: 1em;
+}
+  
+.card {
+      border: 5px solid #000;
+}
+.card h2 {
+      margin: 0;
+      padding: 0.5em 1em;
+      font-size: 1.25rem;
+      color: rgb(255, 255, 255);
+      background-color: rgb(52, 53, 54);
+}
+  
+.card, .inner {
+      padding: 0.5em 1em;
+}
+.sidebar {
+    padding: 0.5rem, 1rem;
+    background-color:rgb(52, 53, 54);
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+}
+
+@media screen and (min-width: 40rem) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header ul {
+        display: flex;
+    }
+    header a {
+        border-top: none;
+    }
+}
+ 
+@media screen and (min-width: 80rem) {
+        main {
+            grid-template-columns: 1fr 1fr;
+        }
+}
+

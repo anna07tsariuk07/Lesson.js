@@ -1,0 +1,15 @@
+body {
+background-color:mediumseagreen;
+}
+a {
+    color:rgb(181, 212, 233);
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: bold;
+}
+ul {
+    list-style: square;
+}
+ul li a {
+    color: rgb(3, 2, 75);
+}

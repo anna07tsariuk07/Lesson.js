@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     height: 100%;
+    background-color: rgb(230, 209, 209) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black ;
+    font-size: 16px;
+    line-height: 24px;
+}
+h1 {
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    line-height: normal;
+}
+span {
+    font-size: 24px;
+    color: rgb(232, 232, 243);
+}
+li {
+    padding: 15px 0px;
+    color: rgb(255, 255, 255);
+}
+span:hover, li:hover {
+    font-size: 28px;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.content {
+    max-width: 1330px;
+    margin: 0px auto;
+    padding: 50px 15px;
+}
+.text {
+    font-size: 30px;
+    color: rgb(0, 0, 82);
+    margin: 0px 0px 20px 0px;
+}
+.font {
+    margin: 0px 0px 20px 0px;
+}
+.font__icons {
+    width: 50%;
+    margin: 0px 0px 20px 0px;
+    padding: 0 0 0 30;
+    background-color: rgb(4, 4, 32);
+    border-radius: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center ;
+    transition: width 2s;
+}
+.font__icons:hover {
+    width: 100%;
+}
+.R {
+    width: 100px;
+    height: 100px;
+    background-color: #E0CABB;
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+}
+.R:hover {
+    left: -50px;
+} 
+   img {width: 100%; display: block;}
+img:hover {opacity: 0.5;}

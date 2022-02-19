@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(181, 236, 255);
+}
+.C div, .C1 div{
+    border: 1px solid black;
+    padding: 5px;
+}
+.C {
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.box-1 {
+    order: 3;
+    flex: 2;
+}
+.box-2 {
+    order: 2;
+    flex: 1;
+}
+.box-3 {
+    order: 1;
+    flex: 2;
+}
+.C1 {
+    display: flex;
+}
+.box {
+    flex-basis: 20%;
+}
+.C1 {
+    display: flex;
+    justify-content: space-around;
+}

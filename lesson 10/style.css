@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    padding: 30px;
+}
+.block p {
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    margin: 0 0 20px 0;
+}
+.link {
+    color: red;
+   
+}
+.link:hover {
+    color: rgb(47, 185, 5);
+    text-decoration: none;
+}
+.block {
+    margin: 0 0 20px 0;
+}
+.inputtext {
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 0 15px;
+    margin: 0 0 10px 0;
+}
+.inputbutton {
+    display: block;
+    width: 432px;
+    height: 50px;
+    background-color: cadetblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 2px;
+    margin: 0 0 10px 0;
+}
+.list li {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+.row:hover {
+    background-color: violet;
+}
+.link:visited {
+    color: rgb(184, 112, 29);
+}
+
+.inputbutton:hover {
+    background-color: slateblue;
+    color: yellow;
+    font-size: 24px;
+}
+.inputbutton:active {
+    background-color: rgb(161, 161, 161);
+    color: yellow;
+    font-size: 24px;
+}
+.inputtext:focus {
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.list {
+    list-style-type: none;
+}
+.list li::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: tomato;
+    display: inline-block;
+    margin: 0 10 0 0;
+}
+.list li:hover::before {
+    background-color: yellowgreen;
+    margin:  0 10px 0 0;
+}
+.row::first-line {
+    font-size: 30px;
+}
+.row::first-letter {
+    color: rgb(0, 109, 109);
+}

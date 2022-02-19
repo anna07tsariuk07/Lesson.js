@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+div{
+    background-color: gray;
+   
+    
+}
+.position {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 200px;
+    border-radius: 50% 50% 50% 50% / 36% 35% 65% 64% ;
+}
+.rt {
+    z-index: 10;
+    position: relative;
+    top: 130px;
+    left: 90px;
+    width: 20px;
+    height: 40px;
+    background-color: rgb(32, 32, 17);
+    border-radius:  55% 45% 47% 53% / 43% 34% 66% 57%  ;
+}
+.eye {
+    z-index: 9;
+    left: 70px;
+    top: 75px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 50% 50% 47% 53% / 43% 34% 66% 57% ;
+}
+.eye2 {
+    z-index: 9;
+    left: 110px;
+    top: 57px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 50% 50% 47% 53% / 43% 34% 66% 57% ;
+}
+.blac1 {
+    z-index: 10;
+    left: 115px ;
+    top: 43px;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    border-radius:50% 50% 47% 53% / 43% 34% 66% 57%  ;
+}
+.blac2  {
+    z-index: 10;
+        left: 75px ;
+        top: 30px;
+        background-color: black;
+        height: 10px;
+        width: 10px;
+        position: relative;
+        border-radius:50% 50% 47% 53% / 43% 34% 66% 57%  ;
+    
+}
+.ty {
+    border-radius: 64% 36% 60% 40% / 54% 42% 58% 46% ;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: gray;
+    left:130px ;
+    top: 7px;
+}
+.ut {
+    border-radius:38% 62% 32% 68% / 49% 53% 47% 51%  ;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: gray;
+    top: -50px;
+    left: 30px;
+}

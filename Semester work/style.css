@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500;700&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500;700&family=Montserrat:wght@500&family=Open+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+.oneul > .ul1 > .hotel {
+    list-style-type: none;
+    text-decoration: none;
+}
+.class {
+    list-style-type: none;
+    text-decoration: none;
+}
+.hotel{
+    display: inline;
+    padding: 0 3% 0 0%;
+}
+.ul1 {
+    margin: 0 14% 0 14%;
+}
+.head>.llogo, .head>.llogo>p{
+    display: inline;
+    margin: 0 0 0 2%;
+}
+.head {
+    margin: 0 0 0 7%;
+    display: inline;
+}
+.text {
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.hotel:hover {
+    font-size: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.ssubmenuu {
+    position: absolute;
+    width: 140px;
+    top: -97px;
+    left:370px;
+    
+    display: none;
+   
+    background-color: white;
+}
+.ssubmenuu > li {
+   
+    display: block;
+}
+.ssubmenuu > li > a {
+  
+    display: block;
+  
+    text-decoration: none;
+   
+    padding: 10px;
+    font-size: 18px;
+    
+    color: #000000;
+   
+    background-color: #b69f9f;
+}
+.ssubmenuu > li > a:hover {
+   
+    background-color: #745151;
+  
+    text-decoration: underline;
+}
+.ul1 > li:hover > ul.ssubmenuu {
+   
+    display: block;
+}
+.icons {
+margin:0px;
+}
+.number {
+    line-height: 0; 
+
+   }
+.img {
+    position: relative;
+    left: 720px;
+    top: -20px;
+}
+.rectangles {
+    position: relative;
+    left: 440px;
+    top: -35px;
+}
+form {
+    width: 100px;
+    display: inline;
+}
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+  .form>form>button {
+      background-color: #c73737;
+      width: 100px;
+      height: 100px;
+  }
+  .form>form>button>p {
+   color: #c73737;
+    
+}
+.calendar, .calendars {
+    width: 50px;
+    height: 50px;
+}
+button {
+    border: 0px ;
+}
+.form {
+    position: relative;
+    left: 480px;
+    top: -53px;
+}
+.form>button {
+    position: relative;
+    top: -117px;
+left: 660px;
+}
+.forms {
+    position: relative;
+    left: 780px;
+    top: -159px;
+}
+.forms>button {
+    position: relative;
+    top: -60px;
+left: 185px;
+}
+.oneul {
+    position: relative;
+    top: -200px;
+}
+.imgwelcome>img {
+    position: relative;
+    width: 1530px;
+    height: 600px;
+    margin: -10% 0 0 5%;
+    z-index: 1;
+}
+.onep {
+    position: relative;
+    border: 1px solid white;
+    position: relative;
+    top: -490px;
+    width: 230px;
+    margin: 0 0 0 10%;
+    z-index: 2;
+}
+.onep>p {
+    position: relative;
+    margin:0 0 0 10px;
+    color: white;
+    font-size: 24px;
+    font-family: Open Sans;
+    z-index: 2;
+}
+.h1>h1 {
+    position: relative;
+  margin: -440px 0 0 190px;
+  color: white;
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+z-index: 2;
+}
+.podrobnee>a {
+    text-decoration: none;
+    position: relative;
+      
+}
+
+.podrobnee>a>p {
+    position: relative;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+text-align: center;
+padding: 14px 0 0 0;
+}
+.podrobnee {
+    position: relative;
+    margin: 80px 0 0 200px;
+    width: 270px;
+    height: 60px;
+  background-color: 
+  #FFFFFF;
+border-radius: 2px;    
+z-index: 3;
+opacity: 25%;
+}
+
+.tur>p {
+    margin: 190px 0 0 150px;  
+    font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+color: #1D1D1D;
+}
+.open >p {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #777777;
+margin: 20px 0 0 160px;
+}
+.apred>a {
+    text-decoration: none;
+    color: 
+    #ffffff;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+margin: 30px 0 0 55px;
+}
+.apred {
+    margin: 30px 0 0 120px ;
+    width:270px;
+    height: 50px;
+    background-color: 
+    #BDBDBD;
+    display: inline-block;
+}
+
+
+.apre>a {
+    text-decoration: none;
+    color: 
+    
+#969696;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+margin: 30px 0 0 85px;
+}
+.apre{
+    margin: 30px 0 0 120px ;
+    width:270px;
+    height: 50px;
+    background-color: 
+    #ffffff;
+    display: inline-block;
+    border: 1px solid #969696;
+}
+
+
+.indiv>img {
+    display: flex;
+    padding: 20px 0;
+}
+.indiv {
+    margin: -180px 0 0 1160px;
+}
+.podhod>p {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 66px;
+/* or 367% */
+
+
+color: #3D3D3D;
+
+}
+.podhod {
+    margin:-193px 0 0 1200px;
+}
+.pp {
+    font-family: Open;
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 55px;
+color: #232323;
+margin: 150px 0 0 159px;
+}
+.besthotels>.besti {
+    display: inline-block;
+}
+.imgg {
+    width: 50px;
+    height: 50px;
+    margin:  -70px 0 0 450px;
+} 
+.imggg {
+    width: 50px;
+    height: 50px;
+    margin:  -50px 0 0 500px;
+} 
+.rectan {
+    margin:  -50px 0 0 630px;
+}
+.ppp {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #969696;
+border: 1px solid #969696;
+box-sizing: border-box;
+border-radius: 2px;
+width: 140px;
+height: 45px;
+padding: 15px 0 0 0;
+margin: -50px 0 0 970px;
+}
+/* 
+.card>img {
+    width: 360px;
+    height: 350px;
+   position: relative;
+   z-index: 1;
+}
+.cardsone>.card {
+    display: inline-block;
+   margin: 20px 50px;
+    
+    
+}
+.cardsone>.la {
+    margin: 20px 0 0 30px;
+}
+
+.cardsone {
+    margin: 50px 10px 0 70px ;
+}
+.cardsone>.la>p {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+padding: 0px 0 0 0;
+color: #000000;
+width: 195px;
+height: 30px;
+background: rgba(170, 170, 170, 0.35);
+opacity: 90%;
+border-radius: 3px;
+}
+
+.cardsone>.la>p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+position: relative;
+z-index: 2;
+padding: -300px 0 0 0;
+}
+.cardsone>.ra>p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+position: relative;
+z-index: 2;
+text-align: center;
+text-transform: uppercase;
+
+
+color: #000000;
+
+}
+.cardsone>.na>p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+position: relative;
+z-index: 2;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+*/
+.actual {
+    margin: 600px 0 0 0;
+}
+.stars {
+    margin: -250px 0 0 100px;
+}
+.star1 {
+    margin: -200px 0 00 240px;
+    z-index: 2;
+    position: relative;
+} 
+.star2 {
+    margin: -25px 0 00 790px;
+    z-index: 2;
+    position: relative;
+} 
+.star3 {
+    margin: -30px 0 00 1270px;
+    z-index: 2;
+    position: relative;
+} 
+.tex>p {
+    display:inline-block ;
+    position: relative;
+    z-index: 2;
+    padding: 0 160px 0 130px;
+    margin: -200px 0 0 -30px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.tex {
+    margin: -200px 0 0 0;
+}
+.act {
+    margin: 400px 0 0 100px;
+}
+.act>p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 55px;
+
+margin: 0 0 30px 50px;
+
+color: #232323;
+
+
+}
+.act>p,.res, h4 {
+    display: inline-block;
+}
+.act>.res {
+    margin: -30px 0 0 56px;
+}
+.act>h4 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+position: relative;
+z-index: 3;
+color: #969696;
+border: #969696 solid 1px;
+border-radius: 2px;
+width: 140px;
+height: 45px;
+padding: 15px 0 0 0;
+margin: 0px 0 0 140px;
+}
+.cads>.cad>img {
+    position: relative;
+    z-index: 1;
+}
+.cardsone>.card>img {
+    position: relative;
+    z-index: 1;
+}
+.card {
+    margin: 20px 0 0 150px;
+    width: 327px;
+    height:500px;
+    background-color: 
+    #F8F8F8;
+    position: relative;
+    z-index: 1;
+}
+.cad {
+    margin: 20px 0 0 150px;
+    width: 327px;
+    height:500px;
+    background-color: 
+    #F8F8F8;
+    position: relative;
+    z-index: 1;
+}
+.cardsone>.card>p{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+position: relative;
+z-index: 3;
+background-color: #e9e9e9;
+color: #000000;
+width: 195px;
+height: 30px;
+
+}
+.cads>.cad>.port{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+position: relative;
+z-index: 3;
+background-color: #e9e9e9;
+color: #000000;
+width: 195px;
+height: 30px;
+
+}
+.cardsone>.card>h3 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+/* identical to box height, or 170% */
+text-align: center;
+text-transform: uppercase;
+margin-top: 10px;
+color: #323232;
+margin: 10px 0 0 30px;
+}
+.cads>.cad>h3 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+/* identical to box height, or 170% */
+text-align: center;
+text-transform: uppercase;
+margin-top: 10px;
+color: #323232;
+
+}
+.cads>.cad>h3:hover {
+    color: rgb(151, 0, 0);
+   
+}
+.ultra {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+margin: 10px 0 0 20px;
+color: #848484;
+
+}
+.prise {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 34px;
+/* identical to box height, or 212% */
+
+margin: 30px 0 0 20px;
+color: #DD4053;
+
+}
+.night {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+margin: -30px 0 0 210px;
+color: #3E3E3E;
+
+}
+.nom {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 34px;
+/* identical to box height, or 283% */
+
+
+color: #C9C9C9;
+margin: 0px 0 0 20px;
+}
+.cads>.cad {
+    display: inline-block;
+   
+}
+.cardsone>.card {
+    display: inline-block;
+   
+}
+.ca {
+  
+  position: relative;
+ top:33px;
+  width: 327px;
+    height:530px;
+    
+}
+.cas {
+  
+    position: relative;
+    top: 33px;
+    width: 327px;
+      height:530px;
+      
+  }
+  .cardsone>.la {
+      position: relative;
+      top: -30px;
+
+}
+.line>img {
+    margin: 140px 0 0 190px;
+    width: 1242px;
+}
+.footer {
+    margin: 100px 0 0 130px;
+}
+.footer>h2 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 55px;
+color: #232323;
+margin: 90px 0 0 80px;
+}
+.footer>.slovenia {
+    opacity: 30%;
+    width: 1440px;
+    height: 370px;
+    position: relative;
+    z-index: 1;
+}
+.footer>h4 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #232323;
+margin: -50px 0 0 900px;
+}
+.footer>.foo>.for {
+    width: 410px;
+height: 50px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 2px;
+position: relative;
+z-index: 2;
+margin: -200px 0 0 0;
+}
+.button {
+width: 500px;
+    height: 90px;
+    background: #DD4053;
+border-radius: 2px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+.button:hover {
+    color: #DD4053;
+    background-color: rgb(255, 255, 255);
+}

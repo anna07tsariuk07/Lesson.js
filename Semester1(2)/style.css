@@ -1,0 +1,54 @@
+.blog>.headblog>h2 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 55px;
+color: #232323;
+width: 132px;
+height: 50px;
+}
+.blog>.headblog>h2, img, p {
+    display: inline;
+}
+.blog>.headblog>img {
+    margin: -90px 0 0 90px;
+}
+.blog>.headblog > p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #969696;
+
+border: 1px solid #969696;
+
+border-radius: 2px;
+
+}
+.cardsblog>.cardblog>a {
+
+color: black;
+}
+.cardsblog>.cardblog>h3 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #323232;
+
+}
+.cardsblog>.cardblog>p {
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #BBBBBB;
+margin: 0px 0 0 -250px;
+
+}

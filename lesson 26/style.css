@@ -1,0 +1,25 @@
+.lesson{
+    margin: 15px 0;
+}
+
+.wrapper_block{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.block{
+    background-color: black;
+}
+.add_button {
+    cursor: pointer;
+    background-color: aliceblue;
+    width: 100px;
+    height: 30px;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+}
+.add_button:hover {
+    background-color: bisque;
+}
