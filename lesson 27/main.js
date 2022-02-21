@@ -34,3 +34,5 @@ cardBlock.insertAdjacentHTML('beforeend',
 let wrapper = document.querySelector('.wrapper')
 wrapper.insertAdjacentElement('beforeend', cardBlock)
 }
+
+
